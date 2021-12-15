@@ -1,0 +1,18 @@
+name = "svelte-cloudflare-workers"
+type = "javascript"
+zone_id = "ce0bb42accc93fde344e7113c77bb596"
+account_id = "a1d57c12278d3a80e0bf93a2bfd69fdf"
+route = "svelte.pinzi.org"
+workers_dev = true
+compatibility_date = "2021-12-15"
+
+[site]
+bucket = "./build"
+entry-point = "./workers-site"
+
+[build]
+command = "npm run build"
+
+# watch_dir = "build/index.js"
+[build.upload]
+format = "service-worker"
