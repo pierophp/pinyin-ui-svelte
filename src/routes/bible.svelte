@@ -13,7 +13,7 @@
 </script>
 
 <svelte:head>
-  <title>About</title>
+  <title>Bible</title>
 </svelte:head>
 
 <div class="content">
